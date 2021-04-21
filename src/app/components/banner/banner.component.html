@@ -6,7 +6,7 @@
     <h1 class="display-5 mt-3">Tim <strong>Tong</strong></h1>
     <div>
       <a *ngFor="let button of buttonLinks; let last = last"
-         class="btn bg-white border-success rounded-circle"
+         class="btn bg-white rounded-circle shadow-2-strong"
          [ngClass]="{'mr-3': !last }"
          href="{{button.url}}"
          target="_blank">
