@@ -1,102 +1,26 @@
-<!--<div class="py-1 mb-2">-->
-<!--  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">-->
-<!--    <div class="container">-->
-<!--      <a class="navbar-brand" href="#"><strong>tktong</strong></a>-->
-<!--      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--        <span class="navbar-toggler-icon"></span>-->
-<!--      </button>-->
-<!--      <div class="collapse navbar-collapse" id="navbarCollapse">-->
-<!--        <ul class="navbar-nav d-flex justify-content-between">-->
-<!--          <li class="nav-item"><a class="nav-link" href="#">ABC</a></li>-->
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link">Blah</a>-->
-<!--          </li>-->
-<!--        </ul>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </nav>-->
-<!--</div>-->
+<app-banner [buttonLinks]="bannerButtons"></app-banner>
 
-<div class="jumbotron p-3 p-md-5 text-white bg-primary">
-  <div class="container text-center">
-    <img
-      class="img-thumbnail rounded-circle"
-      src="https://media-exp1.licdn.com/dms/image/C5603AQGZ_RlHsfJZeg/profile-displayphoto-shrink_200_200/0/1561952727334?e=1624492800&v=beta&t=fv8Hmzj5jMOb1Gfvm-shFj8T85GFnj77cbEmjuk2RTQ" />
-    <h1 class="display-5 mt-3">Tim <strong>Tong</strong></h1>
-<!--    <p class="lead">Software Engineer @ Google</p>-->
-    <div>
-      <button type="button" class="btn btn-light rounded-circle mr-3">
-        <i class="fab fa-linkedin-in"></i>
-      </button>
-      <button type="button" class="btn btn-light rounded-circle mr-3">
-        <i class="fab fa-github"></i>
-      </button>
-      <button type="button" class="btn btn-light rounded-circle">
-        <i class="fab fa-stack-overflow"></i>
-      </button>
+<div class="container mb-5">
+  <ul class="nav nav-tabs nav-fill mb-3" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" data-mdb-toggle="tab" href="#home" role="tab">
+        Home
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" data-mdb-toggle="tab" href="#work-experience-tab" role="tab">
+        Experience &amp; Education
+      </a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane fade show active p-4" id="home" role="tabpanel">
+      <app-landing></app-landing>
     </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="mb-5">
-    <h2 class="text-center h2">Work Experience</h2>
-    <ul class="timeline">
-      <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-        <div class="timeline-arrow"></div>
-        <h3 class="h3">Google</h3>
-        <p><strong>Software Engineer</strong>, May 2021 - Present</p>
-      </li>
-      <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-        <div class="timeline-arrow"></div>
-        <h3 class="h3">Workday</h3>
-        <p><strong>Senior Software Development Engineer</strong>, Aug. 2015 - Apr. 2021</p>
-
-        <div class="card mb-3">
-          <div class="card-body">
-            <h6 class="h6">Teams/Projects</h6>
-            <ul>
-              <li>
-                <strong>Assistant Skill Builder</strong>
-                A graphical low-code platform empowering our internal app developers to build chatbot skills.
-              </li>
-              <li>
-                <strong>Workday Assistant:</strong>
-                Chatbot allowing users to interact with Workday through our own chat window or through Slack/ Microsoft Teams.
-              </li>
-              <li>
-                <strong>Account TakeOver Prevention:</strong>
-                Task force to improve security products with the mission of preventing account take overs.
-              </li>
-              <li>
-                <strong>Authentication Gateway:</strong>
-                Microservice for all end-user authentication-related interactions.
-              </li>
-              <li>
-                <strong>User Interaction Server</strong>:
-                Backend for frontend, converting XO metadata into widgets consumable by the UI client.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="h6">Title Changes</h6>
-            <ul>
-              <li><strong>Senior Software Development Engineer</strong>, May 2019 - Apr. 2021</li>
-              <li><strong>Software Development Engineer III</strong>, May 2018 - Apr. 2019</li>
-              <li><strong>Software Development Engineer II</strong>, May 2017 - Apr. 2018</li>
-              <li><strong>Software Development Engineer I</strong>, Aug. 2015 - Apr. 2017</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-        <div class="timeline-arrow"></div>
-        <h3 class="h3">Workday</h3>
-        <p><strong>Software Development Engineering Intern</strong>, Jun 2014 - Sept. 2014</p>
-      </li>
-    </ul>
+    <div class="tab-pane fade p-4" id="work-experience-tab" role="tabpanel">
+      <app-work-experience></app-work-experience>
+    </div>
   </div>
 </div>
 
