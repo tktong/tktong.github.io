@@ -7,5 +7,5 @@ import {BANNER_BUTTONS} from './personalData';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  private bannerButtons = BANNER_BUTTONS;
+  bannerButtons = BANNER_BUTTONS;
 }
