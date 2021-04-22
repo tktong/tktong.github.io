@@ -1,5 +1,9 @@
-import {ButtonLink} from './models/buttonLink';
 import {TimelineItem} from './models/timelineItem';
+
+// All these should probably go into various services that fetches the relevant data. But that's kind of a pain since this is a simple
+// static webapp hosted on github pages with no backend. While it's probably the proper thing to do in an actual project, scattering all
+// those pieces of data is a pain to manage. I'll need to think more deeply on it, but for now, it's nice to be able to configure the
+// entire github site from one file.
 
 const WORK_EXPERIENCE: TimelineItem[] = [
   {
