@@ -9,6 +9,7 @@ import { LandingComponent } from './screens/landing/landing.component';
 import { CardComponent } from './components/card/card.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { ExperienceEducationComponent } from './screens/experience-education/experience-education.component';
+import { TodayILearnedComponent } from './screens/today-i-learned/today-i-learned.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ExperienceEducationComponent } from './screens/experience-education/exp
     LandingComponent,
     CardComponent,
     TimelineComponent,
-    ExperienceEducationComponent
+    ExperienceEducationComponent,
+    TodayILearnedComponent
   ],
   imports: [
     AppRoutingModule,
