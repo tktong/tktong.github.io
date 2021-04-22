@@ -8,6 +8,9 @@ import {ButtonLink} from '../../models/buttonLink';
 })
 export class BannerComponent implements OnInit {
   @Input() buttonLinks: ButtonLink[] = [];
+  @Input() profilePictureUrl = '';
+  @Input() firstName = 'John';
+  @Input() lastName = 'Doe';
 
   constructor() {
   }

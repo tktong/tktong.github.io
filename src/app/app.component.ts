@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {BANNER_BUTTONS} from './personalData';
+import { PERSONAL_DATA } from './personalData';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,5 @@ import {BANNER_BUTTONS} from './personalData';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  bannerButtons = BANNER_BUTTONS;
+  personalData = PERSONAL_DATA;
 }

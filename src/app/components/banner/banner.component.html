@@ -1,9 +1,7 @@
 <div class="jumbotron p-3 p-md-5 text-white bg-primary">
   <div class="container text-center">
-    <img
-      class="img-thumbnail rounded-circle"
-      src="https://media-exp1.licdn.com/dms/image/C5603AQGZ_RlHsfJZeg/profile-displayphoto-shrink_200_200/0/1561952727334?e=1624492800&v=beta&t=fv8Hmzj5jMOb1Gfvm-shFj8T85GFnj77cbEmjuk2RTQ" />
-    <h1 class="display-5 mt-3">Tim <strong>Tong</strong></h1>
+    <img class="img-thumbnail rounded-circle" src="{{profilePictureUrl}}" />
+    <h1 class="display-5 mt-3">{{firstName}} <strong>{{lastName}}</strong></h1>
     <div>
       <a *ngFor="let button of buttonLinks; let last = last"
          class="btn bg-white rounded-circle shadow-2-strong"

@@ -1,0 +1,14 @@
+<div *ngIf="workExperience.length > 0" class="mb-5">
+  <h3 class="h3">Work Experience</h3>
+  <app-timeline [items]="workExperience"></app-timeline>
+</div>
+
+<div *ngIf="otherExperience.length > 0" class="mb-5">
+  <h3 class="h3">Other Experience</h3>
+  <app-timeline [items]="otherExperience"></app-timeline>
+</div>
+
+<div *ngIf="education.length > 0" class="mb-5">
+  <h3 class="h3">Education</h3>
+  <app-timeline [items]="education"></app-timeline>
+</div>

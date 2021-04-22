@@ -6,14 +6,18 @@ import { AppComponent } from './app.component';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
 import { BannerComponent } from './components/banner/banner.component';
 import { LandingComponent } from './screens/landing/landing.component';
-import { WorkExperienceComponent } from './screens/work-experience/work-experience.component';
+import { CardComponent } from './components/card/card.component';
+import { TimelineComponent } from './components/timeline/timeline.component';
+import { ExperienceEducationComponent } from './screens/experience-education/experience-education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerComponent,
     LandingComponent,
-    WorkExperienceComponent
+    CardComponent,
+    TimelineComponent,
+    ExperienceEducationComponent
   ],
   imports: [
     AppRoutingModule,
