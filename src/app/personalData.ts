@@ -183,12 +183,6 @@ const READINGS = new Map<number, Book[]>([
   [2021,
     [
       {
-        title: 'The Infinite Game',
-        author: 'Simon Sinek',
-        url: 'https://www.google.com/books/edition/_/GwQotAEACAAJ?hl=en',
-        current: true
-      },
-      {
         title: 'The Reason for God',
         author: 'Timothy Keller',
         url: 'https://www.google.com/books/edition/The_Reason_for_God/-eUbFMEY49QC?hl=en&gbpv=0',
@@ -199,7 +193,13 @@ const READINGS = new Map<number, Book[]>([
         author: 'Robert Shiller',
         url: 'https://www.google.com/books/edition/_/_2-YDwAAQBAJ?hl=en',
         current: true
-      }
+      },
+      {
+        title: 'The Infinite Game',
+        author: 'Simon Sinek',
+        url: 'https://www.google.com/books/edition/_/GwQotAEACAAJ?hl=en',
+        current: false
+      },
     ]
   ],
   [2020,
