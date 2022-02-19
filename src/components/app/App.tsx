@@ -4,7 +4,6 @@ import './App.scss';
 function App() {
     return (
         <div className="app bg-image shadow-2-strong">
-            hello
             <div className="mask reduced-alpha">
                 <div className="container d-flex align-items-center justify-content-center text-center h-100">
                     <div className="text-white">
