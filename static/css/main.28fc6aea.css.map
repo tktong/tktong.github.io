@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.28fc6aea.css","mappings":"AAAA,KACE,wEAED,aAGC,+CAAoC","sources":["components/app/App.scss"],"sourcesContent":[".app {\n  background-image: url(\"./background1.jpg\");\n  height: 100vh;\n}\n\n.reduced-alpha {\n  background-color: rgba(0, 0, 0, 0.7);\n}\n"],"names":[],"sourceRoot":""}
