@@ -1,0 +1,27 @@
+.navbar {
+  box-shadow: unset;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 26px;
+  font-weight: 500;
+  color: #4C8BF5;
+}
+
+.nav-brand:hover {
+  color: #4C8BF5;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  font-weight: 500;
+  color: #000000;
+}
+
+.nav-item a:hover {
+  color: #4C8BF5;
+}
